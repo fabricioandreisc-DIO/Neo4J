@@ -1,0 +1,588 @@
+MERGE (:Usuario {nomeUsuario: "Fabricio Andrei", cidadeUsuario: "Rio de Janeiro", dataDeNascimento: date("1976-06-14")});
+MERGE (:Usuario {nomeUsuario: "Pietro Emmanuel", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("2011-02-19")});
+MERGE (:Usuario {nomeUsuario: "Maria Helena", cidadeUsuario: "Rio de Janeiro",dataDeNascimento:date("1972-11-30")});
+MERGE (:Usuario {nomeUsuario: "Matheus Oliveira", cidadeUsuario: "Rio de Janeiro",dataDeNascimento:date("2008-05-30")});
+MERGE (:Usuario {nomeUsuario: "João José", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("1956-11-26")});
+MERGE (:Usuario {nomeUsuario: "Estela Silveira", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("1962-03-24")});
+MERGE (:Usuario {nomeUsuario: "Enzo Augusto", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("1978-05-23")});
+MERGE (:Usuario {nomeUsuario: "Thor Augusto", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("2020-05-30")});
+MERGE (:Usuario {nomeUsuario: "Walter Silveira", cidadeUsuario: "Assunção", dataDeNascimento:date("1980-10-25")});
+MERGE (:Usuario {nomeUsuario: "Luiz Donato", cidadeUsuario: "São Paulo", dataDeNascimento:date("1950-12-25")});
+
+MERGE (:Comunidade {nomeComunidade: "Rock", generoComunidade: "Rock", textoComunidade: "Para aqueles que gosta de Rock"});
+MERGE (:Comunidade {nomeComunidade: "Charlie Brown Jr ainda vive", generoComunidade: "Rock", textoComunidade: "Onde só os loucos sabem"});
+MERGE (:Comunidade {nomeComunidade: "Stars", generoComunidade: "Pop", textoComunidade: "Comunidade de Raggie"});
+MERGE (:Comunidade {nomeComunidade: "MPB", generoComunidade: "MPB", textoComunidade: "Para quem tem samba no pé"});
+MERGE (:Comunidade {nomeComunidade: "Tecno Hit", generoComunidade: "Eletronica", textoComunidade: "Nas batidas da balada"});
+
+MERGE (:Artista {nomeArtista: "Chorão"});
+MERGE (:Artista {nomeArtista: "Champignon"});
+MERGE (:Artista {nomeArtista: "Marcão Britto"});
+MERGE (:Artista {nomeArtista: "Thiago Castanho"});
+MERGE (:Artista {nomeArtista: "Renato Pelado"});
+MERGE (:Artista {nomeArtista: "Badauí"});
+MERGE (:Artista {nomeArtista: "Luciano Garcia"});
+MERGE (:Artista {nomeArtista: "Phil Fargnoli"});
+MERGE (:Artista {nomeArtista: "Ali Zaher Jr"});
+MERGE (:Artista {nomeArtista: "Daniel Siqueira"});
+MERGE (:Artista {nomeArtista: "Supla"});
+MERGE (:Artista {nomeArtista: "Dinho"});
+MERGE (:Artista {nomeArtista: "Bento Hinoto"});
+MERGE (:Artista {nomeArtista: "Sergio Reoli"});
+MERGE (:Artista {nomeArtista: "Julio Rasec"});
+MERGE (:Artista {nomeArtista: "Samuel Reoli"});
+MERGE (:Artista {nomeArtista: "Marcelo Falcão"});
+MERGE (:Artista {nomeArtista: "Marcelo Lobato"});
+MERGE (:Artista {nomeArtista: "Xandão"});
+MERGE (:Artista {nomeArtista: "Lauro Farias"});
+
+MERGE (:Artista {nomeArtista: "Nelson Meirelles"});
+MERGE (:Artista {nomeArtista: "Alok"});
+MERGE (:Artista {nomeArtista: "David Guetta"});
+MERGE (:Artista {nomeArtista: "Allan Walker"});
+MERGE (:Artista {nomeArtista: "Tiesto"});
+MERGE (:Artista {nomeArtista: "Martin Garrix"});
+MERGE (:Artista {nomeArtista: "Bruno Mars"});
+MERGE (:Artista {nomeArtista: "Madonna"});
+MERGE (:Artista {nomeArtista: "Anitta"});
+MERGE (:Artista {nomeArtista: "Lews Capaldi"});
+MERGE (:Artista {nomeArtista: "Sia"});
+MERGE (:Artista {nomeArtista: "Nelly"});
+MERGE (:Artista {nomeArtista: "Snoopy Dog Dog"});
+MERGE (:Artista {nomeArtista: "Eminem"});
+MERGE (:Artista {nomeArtista: "Ava Max"});
+MERGE (:Artista {nomeArtista: "Edward Maia"});
+MERGE (:Artista {nomeArtista: "Gigi D Agostino"});
+MERGE (:Artista {nomeArtista: "Calvin Harris"});
+MERGE (:Artista {nomeArtista: "Jota.Pê"});
+MERGE (:Artista {nomeArtista: "Ana Frango Elétrico"}); 
+MERGE (:Artista {nomeArtista: "Jonathan Ferr"});
+MERGE (:Artista {nomeArtista: "FBC"});
+
+MERGE (:Banda {nomeBanda: "Charlie Brown Jr"});
+MERGE (:Banda {nomeBanda: "CPM22"});
+MERGE (:Banda {nomeBanda: "O Rappa"});
+MERGE (:Banda {nomeBanda: "Mamonas Assassinas"});
+
+MERGE (:Album {nomeAlbum: "Mamonas Assassinas 1985"});
+MERGE (:Album {nomeAlbum: "Música Popular Caiçara"});
+MERGE (:Album {nomeAlbum: "Ritmo Ritual e Responsa"});
+MERGE (:Album {nomeAlbum: "Marginal Alado"});
+MERGE (:Album {nomeAlbum: "Arte de Charlie Brown Jr"});
+MERGE (:Album {nomeAlbum: "Charlie Brown Jr"});
+MERGE (:Album {nomeAlbum: "Suor e Sacrifício"});
+MERGE (:Album {nomeAlbum: "CPM22"});
+MERGE (:Album {nomeAlbum: "CPM22 Acústico"});
+MERGE (:Album {nomeAlbum: "O Rappa Acústico MTV"});
+MERGE (:Album {nomeAlbum: "7 Vezes"});
+MERGE (:Album {nomeAlbum: "Nunca Tem Fim..."});
+MERGE (:Album {nomeAlbum: "On My Way"});
+MERGE (:Album {nomeAlbum: "Crônicas de um Sonhador" });
+MERGE (:Album {nomeAlbum: "Me Chama de Gato Que Eu Sou Sua"});
+MERGE (:Album {nomeAlbum: "LAR"});
+MERGE (:Album {nomeAlbum: "BAILE"});
+
+MERGE (:Album {nomeAlbum: "Frozen"});
+MERGE (:Album {nomeAlbum: "Meu Lugar"});
+MERGE (:Album {nomeAlbum: "Alok Mix 2025"});
+MERGE (:Album {nomeAlbum: "The Best of David Guetta"});
+MERGE (:Album {nomeAlbum: "World of Walker"});
+MERGE (:Album {nomeAlbum: "Drive"});
+MERGE (:Album {nomeAlbum: "Martin Garrix Presents"});
+MERGE (:Album {nomeAlbum: "Doo-Wops & Hooligans"});
+MERGE (:Album {nomeAlbum: "Divinely Uninspired To A Hellish Extent (2019)"});
+MERGE (:Album {nomeAlbum: "Live From Sydney"});
+MERGE (:Album {nomeAlbum: "5.0"});
+MERGE (:Album {nomeAlbum: "Doggstyles"});
+MERGE (:Album {nomeAlbum: "2Pac vs Eminem"});
+MERGE (:Album {nomeAlbum: "Heaven & Hell"});
+MERGE (:Album {nomeAlbum: "Stereo Love"});
+MERGE (:Album {nomeAlbum: "L'Amour Toujours"});
+MERGE (:Album {nomeAlbum: "Feel So Close"});
+
+MERGE (:Faixa {nomeFaixa: "Pelado em Santos", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Brasília Amarela", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Céu Azul", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Me encontra", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Tâmos aí atividade", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Ela vai volta", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Só os loucos sabem", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Como tudo deve ser", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Um minuto para o fim do mundo", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Dias atrás", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Pescador de ilusões", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Minha alma", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Monstro invísivel", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Suplica cearense", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Anjos", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "O Salto", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Break The Ice", generoFaixa: "Rock"});
+MERGE (:Faixa {nomeFaixa: "Garota de Berlim", generoFaixa: "Rock"});
+
+MERGE (:Faixa {nomeFaixa: "Conte Comigo", generoFaixa: "MPB"});
+MERGE (:Faixa {nomeFaixa: "Lembrei de Nós", generoFaixa: "MPB"});
+MERGE (:Faixa {nomeFaixa: "Insista em mim", generoFaixa: "MPB"});
+MERGE (:Faixa {nomeFaixa: "Nuvem vermelha", generoFaixa: "MPB"});
+MERGE (:Faixa {nomeFaixa: "Saturno", generoFaixa: "MPB"});
+MERGE (:Faixa {nomeFaixa: "O Piano", generoFaixa: "MPB"});
+MERGE (:Faixa {nomeFaixa: "Vem pro baile", generoFaixa: "MPB"});
+MERGE (:Faixa {nomeFaixa: "De Kenner", generoFaixa: "MPB"});
+MERGE (:Faixa {nomeFaixa: "Frozen", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "The Power of Good-Bye", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Menina Má", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Cachorro tenho em casa", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Hear Me Now", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "Ocean", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "Titanium", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "Shewolf", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "Faded", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "The Spectre", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "The Business", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "The Motto", generoFaixa: "Eletrônica"});
+
+MERGE (:Faixa {nomeFaixa: "So Far Way", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Granede", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Talking to the Moon",generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Someone You Loved", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Elastic Heart", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Cheap Thrills", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "So Far Way", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Granede", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Talking to the Moon",generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Someone You Loved", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Elastic Heart", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Cheap Thrills", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Just a Dream",generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Drop It Like It's Hot", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Lay Low", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Houdini", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Lose Yourself", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Sweet But Psycho", generoFaixa: "POP"});
+MERGE (:Faixa {nomeFaixa: "Stereo Love", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "L’Amour Toujours", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "In My Mind", generoFaixa: "Eletrônica"});
+MERGE (:Faixa {nomeFaixa: "Summer",generoFaixa: "Eletrônica"});
+
+MATCH (a:Artista {nomeArtista: "Chorão"}), (b:Banda {nomeBanda: "Charlie Brown Jr"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Champignon"}), (b:Banda {nomeBanda: "Charlie Brown Jr"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Marcão Britto"}), (b:Banda {nomeBanda: "Charlie Brown Jr"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Thiago Castanho"}), (b:Banda {nomeBanda: "Charlie Brown Jr"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Renato Pelado"}), (b:Banda {nomeBanda: "Charlie Brown Jr"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Badauí"}), (b:Banda {nomeBanda: "CPM22"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Luciano Garcia"}), (b:Banda {nomeBanda: "CPM22"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Phil Fargnoli"}), (b:Banda {nomeBanda: "CPM22"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Ali Zaher Jr"}), (b:Banda {nomeBanda: "CPM22"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Daniel Siqueira"}), (b:Banda {nomeBanda: "CPM22"})
+MERGE (a)-[:INTEGRA]->(b);
+
+MATCH (a:Artista {nomeArtista: "Marcelo Falcão"}), (b:Banda {nomeBanda: "O Rappa"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Marcelo Lobato"}), (b:Banda {nomeBanda: "O Rappa"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Xandão"}), (b:Banda {nomeBanda: "O Rappa"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Lauro Farias"}), (b:Banda {nomeBanda: "O Rappa"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Nelson Meirelles"}), (b:Banda {nomeBanda: "O Rappa"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Dinho"}), (b:Banda {nomeBanda: "Mamonas Assassinas"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Bento Hinoto"}), (b:Banda {nomeBanda: "Mamonas Assassinas"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Sergio Reoli"}), (b:Banda {nomeBanda: "Mamonas Assassinas"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Julio Rasec"}), (b:Banda {nomeBanda: "Mamonas Assassinas"})
+MERGE (a)-[:INTEGRA]->(b);
+MATCH (a:Artista {nomeArtista: "Samuel Reoli"}), (b:Banda {nomeBanda: "Mamonas Assassinas"})
+MERGE (a)-[:INTEGRA]->(b);
+
+MATCH (f:Faixa {nomeFaixa: "Pelado em Santos"}), (a:Album {nomeAlbum: "Mamonas Assassinas 1985"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Brasília Amarela"}), (a:Album {nomeAlbum: "Mamonas Assassinas 1985"})
+MERGE (f)-[:ESTA_NO]->(a); 
+MATCH (f:Faixa {nomeFaixa: "Céu Azul"}), (a:Album {nomeAlbum: "Música Popular Caiçara"})
+MERGE (f)-[:ESTA_NO]->(a); 
+MATCH (f:Faixa {nomeFaixa: "Me encontra"}), (a:Album {nomeAlbum: "Charlie Brown Jr"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Tâmos aí atividade"}), (a:Album {nomeAlbum: "Ritmo Ritual e Responsa"})
+MERGE (f)-[:ESTA_NO]->(a); 
+MATCH (f:Faixa {nomeFaixa: "Ela vai volta"}), (a:Album {nomeAlbum: "Marginal Alado"})
+MERGE (f)-[:ESTA_NO]->(a); 
+MATCH (f:Faixa {nomeFaixa: "Só os loucos sabem"}), (a:Album {nomeAlbum: "Arte de Charlie Brown Jr"})
+MERGE (f)-[:ESTA_NO]->(a); 
+MATCH (f:Faixa {nomeFaixa: "Como tudo deve ser"}), (a:Album {nomeAlbum: "Suor e Sacrifício"})
+MERGE (f)-[:ESTA_NO]->(a); 
+
+MATCH (f:Faixa {nomeFaixa: "Um minuto para o fim do mundo"}), (a:Album {nomeAlbum: "CPM22"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Dias atrás"}), (a:Album {nomeAlbum: "CPM22 Acústico"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Pescador de ilusões"}), (a:Album {nomeAlbum: "O Rappa Acústico MTV"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Minha alma"}), (a:Album {nomeAlbum: "O Rappa Acústico MTV"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Monstro invísivel"}), (a:Album {nomeAlbum: "7 Vezes"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Suplica cearense"}), (a:Album {nomeAlbum: "7 Vezes"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Anjos"}), (a:Album {nomeAlbum: "Nunca Tem Fim..."})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "O Salto"}), (a:Album {nomeAlbum: "Nunca Tem Fim..."})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Break The Ice"}), (a:Album {nomeAlbum: "On My Way"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Garota de Berlim"}), (a:Album {nomeAlbum: "On My Way"})
+MERGE (f)-[:ESTA_NO]->(a);
+
+MATCH (f:Faixa {nomeFaixa: "Conte Comigo"}), (a:Album {nomeAlbum: "Crônicas de um Sonhador"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Lembrei de Nós"}), (a:Album {nomeAlbum: "Crônicas de um Sonhador"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Insista em mim"}), (a:Album {nomeAlbum: "Me Chama de Gato Que Eu Sou Sua"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Nuvem vermelha"}), (a:Album {nomeAlbum: "Me Chama de Gato Que Eu Sou Sua"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Saturno"}), (a:Album {nomeAlbum: "LAR"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "O Piano"}), (a:Album {nomeAlbum: "LAR"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Vem pro baile"}), (a:Album {nomeAlbum: "BAILE"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "De Kenner"}), (a:Album {nomeAlbum: "BAILE"})
+MERGE (f)-[:ESTA_NO]->(a);
+
+MATCH (f:Faixa {nomeFaixa: "Frozen"}), (a:Album {nomeAlbum: "Frozen"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "The Power of Good-Bye"}), (a:Album {nomeAlbum: "Frozen"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Menina Má"}), (a:Album {nomeAlbum: "Meu Lugar"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Cachorro tenho em casa"}), (a:Album {nomeAlbum: "Meu Lugar"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Hear Me Now"}), (a:Album {nomeAlbum: "Alok Mix 2025"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Ocean"}), (a:Album {nomeAlbum: "Alok Mix 2025"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Titanium"}), (a:Album {nomeAlbum: "The Best of David Guetta"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Shewolf"}), (a:Album {nomeAlbum: "The Best of David Guetta"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Faded"}), (a:Album {nomeAlbum: "World of Walker"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "The Spectre"}), (a:Album {nomeAlbum: "World of Walker"})
+MERGE (f)-[:ESTA_NO]->(a);
+
+MATCH (f:Faixa {nomeFaixa: "The Business"}), (a:Album {nomeAlbum: "Drive"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "The Motto"}), (a:Album {nomeAlbum: "Drive"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "So Far Way"}), (a:Album {nomeAlbum: "Martin Garrix Presents"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Granede"}), (a:Album {nomeAlbum: "Doo-Wops & Hooligans"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Talking to the Moon"}), (a:Album {nomeAlbum: "Doo-Wops & Hooligans"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Someone You Loved"}), (a:Album {nomeAlbum: "Divinely Uninspired To A Hellish Extent (2019)"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Elastic Heart"}), (a:Album {nomeAlbum: "Live From Sydney"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Cheap Thrills"}), (a:Album {nomeAlbum: "Live From Sydney"})
+MERGE (f)-[:ESTA_NO]->(a);
+
+MATCH (f:Faixa {nomeFaixa: "Just a Dream"}), (a:Album {nomeAlbum: "5.0"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Drop It Like It's Hot"}), (a:Album {nomeAlbum: "Doggstyles"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Lay Low"}), (a:Album {nomeAlbum: "Doggstyles"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Houdini"}), (a:Album {nomeAlbum: "2Pac vs Eminem"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Lose Yourself"}), (a:Album {nomeAlbum: "2Pac vs Eminem"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Sweet But Psycho"}), (a:Album {nomeAlbum: "Heaven & Hell"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Stereo Love"}), (a:Album {nomeAlbum: "Stereo Love"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "L’Amour Toujours"}), (a:Album {nomeAlbum: "L'Amour Toujours"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "In My Mind"}), (a:Album {nomeAlbum: "L'Amour Toujours"})
+MERGE (f)-[:ESTA_NO]->(a);
+MATCH (f:Faixa {nomeFaixa: "Summer"}), (a:Album {nomeAlbum: "Feel So Close"})
+MERGE (f)-[:ESTA_NO]->(a);
+
+MATCH (b:Banda {nomeBanda: "Mamonas Assasinas"}), (f:Faixa {nomeFaixa: "Pelado em Santos"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "Mamonas Assasinas"}), (f:Faixa {nomeFaixa: "Brasília Amarela"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "Charlie Brown Jr"}), (f:Faixa {nomeFaixa: "Céu Azul"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "Charlie Brown Jr"}), (f:Faixa {nomeFaixa: "Me encontra"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "Charlie Brown Jr"}), (f:Faixa {nomeFaixa: "Tâmos aí atividade"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "Charlie Brown Jr"}), (f:Faixa {nomeFaixa: "Ela vai volta"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "Charlie Brown Jr"}), (f:Faixa {nomeFaixa: "Só os loucos sabem"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "Charlie Brown Jr"}), (f:Faixa {nomeFaixa: "Como tudo deve ser"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+
+MATCH (b:Banda {nomeBanda: "CPM22"}), (f:Faixa {nomeFaixa: "Um minuto para o fim do mundo"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "CPM22"}), (f:Faixa {nomeFaixa: "Dias atrás"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "O Rappa"}), (f:Faixa {nomeFaixa: "Pescador de ilusões"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "O Rappa"}), (f:Faixa {nomeFaixa: "Minha alma"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "O Rappa"}), (f:Faixa {nomeFaixa: "Monstro invísivel"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "O Rappa"}), (f:Faixa {nomeFaixa: "Suplica cearense"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "O Rappa"}), (f:Faixa {nomeFaixa: "Anjos"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+MATCH (b:Banda {nomeBanda: "O Rappa"}), (f:Faixa {nomeFaixa: "O Salto"})
+MERGE (b)-[:BANDA_LANÇA]->(f);
+
+MATCH (a:Artista {nomeArtista: "Supla"}), (f:Faixa {nomeFaixa: "Break The Ice"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Supla"}), (f:Faixa {nomeFaixa: "Garota de Berlim"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Jota.Pê"}), (f:Faixa {nomeFaixa: "Lembrei de Nós"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Jota.Pê"}), (f:Faixa {nomeFaixa: "Conte Comigo"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Ana Frango Elétrico"}), (f:Faixa {nomeFaixa: "Insista em mim"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Ana Frango Elétrico"}), (f:Faixa {nomeFaixa: "Nuvem vermelha"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Jonathan Ferr"}), (f:Faixa {nomeFaixa: "Saturno"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Jonathan Ferr"}), (f:Faixa {nomeFaixa: "O Piano"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "FBC"}), (f:Faixa {nomeFaixa: "Vem pro baile"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "FBC"}), (f:Faixa {nomeFaixa: "De Kenner"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+
+MATCH (a:Artista {nomeArtista: "Madonna"}), (f:Faixa {nomeFaixa: "Frozen"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Madonna"}), (f:Faixa {nomeFaixa: "The Power of Good-Bye"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "Menina Má"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "Cachorro tenho em casa"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "Hear Me Now"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "Ocean"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "Titanium"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "Shewolf"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "Faded"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "The Spectre"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "The Business"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: ""}), (f:Faixa {nomeFaixa: "The Motto"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Martin Garrix"}), (f:Faixa {nomeFaixa: "So Far Way"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Bruno Mars"}), (f:Faixa {nomeFaixa: "Granede"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Bruno Mars"}), (f:Faixa {nomeFaixa: "Talking to the Moon"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Lews Capaldi"}), (f:Faixa {nomeFaixa: "Someone You Loved"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Sia"}), (f:Faixa {nomeFaixa: "Elastic Heart"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Sia"}), (f:Faixa {nomeFaixa: "Cheap Thrills"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Snoopy Dog Dog"}), (f:Faixa {nomeFaixa: "Drop It Like It's Hot"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Snoopy Dog Dog"}), (f:Faixa {nomeFaixa: "Lay Low"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+
+MATCH (a:Artista {nomeArtista: "Eminem"}), (f:Faixa {nomeFaixa: "Houdini"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Eminem"}), (f:Faixa {nomeFaixa: "Lose Yourself"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Nelly"}), (f:Faixa {nomeFaixa: "Just a Dream"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Ava Max"}), (f:Faixa {nomeFaixa: "Sweet But Psycho"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Edward Maia"}), (f:Faixa {nomeFaixa: "Stereo Love"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Gigi D Agostino"}), (f:Faixa {nomeFaixa: "L’Amour Toujours"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Gigi D Agostino"}), (f:Faixa {nomeFaixa: "In My Mind"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+MATCH (a:Artista {nomeArtista: "Calvin Harris"}), (f:Faixa {nomeFaixa: "Summer"})
+MERGE (a)-[:ARTISTA_LANÇA]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Pelado em Santos"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Brasília Amarela"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Céu Azul"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Me encontra"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Um minuto para o fim do mundo"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Monstro invísivel"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Anjos"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Break The Ice"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Garota de Berlim"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Frozen"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Hear Me Now"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (f:Faixa {nomeFaixa: "Ocean"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (f:Faixa {nomeFaixa: "Pelado em Santos"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (f:Faixa {nomeFaixa: "Brasília Amarela"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (f:Faixa {nomeFaixa: "Menina Má"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 1 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (f:Faixa {nomeFaixa: "Cachorro tenho em casa"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 1 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (f:Faixa {nomeFaixa: "Granede"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (f:Faixa {nomeFaixa: "Hear Me Now"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (f:Faixa {nomeFaixa: "Sweet But Psycho"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (f:Faixa {nomeFaixa: "The Business"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Maria Helena"}), (f:Faixa {nomeFaixa: "Conte Comigo"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Maria Helena"}), (f:Faixa {nomeFaixa: "Insista em mim"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Matheus Oliveira"}), (f:Faixa {nomeFaixa: "Hear Me Now"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Matheus Oliveira"}), (f:Faixa {nomeFaixa: "Ocean"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 3 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Matheus Oliveira"}), (f:Faixa {nomeFaixa: "Faded"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Matheus Oliveira"}), (f:Faixa {nomeFaixa: "The Spectre"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 4 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "João José"}), (f:Faixa {nomeFaixa: "Hear Me Now"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "João José"}), (f:Faixa {nomeFaixa: "Ocean"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 4 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "João José"}), (f:Faixa {nomeFaixa: "Faded"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "João José"}), (f:Faixa {nomeFaixa: "The Spectre"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 1 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Estela Silveira"}), (f:Faixa {nomeFaixa: "Frozen"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Estela Silveira"}), (f:Faixa {nomeFaixa: "Someone You Loved"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 3 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Estela Silveira"}), (f:Faixa {nomeFaixa: "Elastic Heart"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 2 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Estela Silveira"}), (f:Faixa {nomeFaixa: "Just a Dream"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 1 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Estela Silveira"}), (f:Faixa {nomeFaixa: "Sweet But Psycho"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 3 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Estela Silveira"}), (f:Faixa {nomeFaixa: "The Power of Good-Bye"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Enzo Augusto"}), (f:Faixa {nomeFaixa: "Hear Me Now"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Enzo Augusto"}), (f:Faixa {nomeFaixa: "Ocean"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 4 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Enzo Augusto"}), (f:Faixa {nomeFaixa: "Titanium"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 2 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Enzo Augusto"}), (f:Faixa {nomeFaixa: "Shewolf"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 2 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Enzo Augusto"}), (f:Faixa {nomeFaixa: "Faded"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Enzo Augusto"}), (f:Faixa {nomeFaixa: "The Spectre"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 3 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Thor Augusto"}), (f:Faixa {nomeFaixa: "Pelado em Santos"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Thor Augusto"}), (f:Faixa {nomeFaixa: "Pelado em Santos"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Thor Augusto"}), (f:Faixa {nomeFaixa: "Me encontra"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Thor Augusto"}), (f:Faixa {nomeFaixa: "Tâmos aí atividade"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Walter Silveira"}), (f:Faixa {nomeFaixa: "Hear Me Now"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Walter Silveira"}), (f:Faixa {nomeFaixa: "Ocean"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Walter Silveira"}), (f:Faixa {nomeFaixa: "Titanium"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 3 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Walter Silveira"}), (f:Faixa {nomeFaixa: "Shewolf"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 3 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Walter Silveira"}), (f:Faixa {nomeFaixa: "Faded"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Walter Silveira"}), (f:Faixa {nomeFaixa: "The Business"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 4 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Walter Silveira"}), (f:Faixa {nomeFaixa: "The Motto"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 4 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Faixa {nomeFaixa: "Pelado em Santos"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Faixa {nomeFaixa: "Brasília Amarela"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Faixa {nomeFaixa: "Céu Azul"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Faixa {nomeFaixa: "Me encontra"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Faixa {nomeFaixa: "Um minuto para o fim do mundo"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Faixa {nomeFaixa: "Dias atrás"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Faixa {nomeFaixa: "Pescador de ilusões"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Faixa {nomeFaixa: "Minha alma"})
+MERGE (u)-[:ESCUTA {avaliaçãoEscuta: 5 }]->(f);
+
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (c:Comunidade {nomeComunidade: "Rock"})
+MERGE (u)-[:SEGUE]->(c);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (c:Comunidade {nomeComunidade: "Charlie Brown Jr ainda vive"})
+MERGE (u)-[:SEGUE]->(c);
+MATCH (u:Usuario {nomeUsuario: "Maria Helena"}), (c:Comunidade {nomeComunidade: "MPB"})
+MERGE (u)-[:SEGUE]->(c);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (c:Comunidade {nomeComunidade: "Rock"})
+MERGE (u)-[:SEGUE]->(c);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (c:Comunidade {nomeComunidade: "Charlie Brown Jr ainda vive"})
+MERGE (u)-[:SEGUE]->(c);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (c:Comunidade {nomeComunidade: "Tecno Hit"})
+MERGE (u)-[:SEGUE]->(c);
+MATCH (u:Usuario {nomeUsuario: "Estela Silveira"}), (c:Comunidade {nomeComunidade: "Stars"})
+MERGE (u)-[:SEGUE]->(c);
+
+
+
+
+
+

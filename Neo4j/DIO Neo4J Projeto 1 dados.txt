@@ -1,0 +1,361 @@
+MERGE (:Usuario {nomeUsuario: "Fabricio Andrei", cidadeUsuario: "Rio de Janeiro", dataDeNascimento: date("1976-06-14")});
+MERGE (:Usuario {nomeUsuario: "Pietro Emmanuel", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("2011-02-19")});
+MERGE (:Usuario {nomeUsuario: "Maria Helena", cidadeUsuario: "Rio de Janeiro",dataDeNascimento:date("1972-11-30")});
+MERGE (:Usuario {nomeUsuario: "Matheus Oliveira", cidadeUsuario: "Rio de Janeiro",dataDeNascimento:date("2008-05-30")});
+MERGE (:Usuario {nomeUsuario: "João José", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("1956-11-26")});
+MERGE (:Usuario {nomeUsuario: "Estela Silveira", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("1962-03-24")});
+MERGE (:Usuario {nomeUsuario: "Enzo Augusto", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("1978-05-23")});
+MERGE (:Usuario {nomeUsuario: "Thor Augusto", cidadeUsuario: "Rio de Janeiro", dataDeNascimento:date("2020-05-30")});
+MERGE (:Usuario {nomeUsuario: "Walter Silveira", cidadeUsuario: "Assunção", dataDeNascimento:date("1980-10-25")});
+MERGE (:Usuario {nomeUsuario: "Luiz Donato", cidadeUsuario: "São Paulo", dataDeNascimento:date("1950-12-25")});
+MERGE (:Filme {nomeFilme: "Era uma vez em Hollywood", sinopseFilme: "Em 1969, Rick Dalton é um ator de TV em declínio que tenta voltar à vida de fama e sucesso em Hollywood ao lado de seu amigo e dublê, Cliff Booth.", dataLançamento:date("2019-08-15"), categoria: ""});
+MERGE (:Filme {nomeFilme: "Rocky IV", sinopseFilme: " o campeão mundial Rocky Balboa busca vingança após seu amigo Apollo Creed ser morto no ringue pelo brutal boxeador soviético Ivan Drago.", dataLançamento:date("1986-01-17"), categoria: ""});
+MERGE (:Filme {nomeFilme: "Prenda-Me Se For Capaz", sinopseFilme: "Frank Abagnale Jr. já trabalhou como médico, advogado e copiloto, tudo isso antes de completar 18 anos. Mestre na arte do disfarce, ele aproveita suas habilidades para viver a vida como quer e praticar golpes milionários, que fazem com que se torne o ladrão de banco mais bem-sucedido da história dos Estados Unidos com apenas 17 anos. Mas em seu encalço está o agente do FBI Carl Hanratty, que usa todos os meios que tem ao seu dispor para encontrá-lo e capturá-lo, mas Frank está sempre à frente.", dataLançamento:date("2002-12-25"), categoria: ""});
+MERGE (:Filme {nomeFilme: "Django Livre", sinopseFilme: "No sul dos Estados Unidos, o ex-escravo Django faz uma aliança inesperada com o caçador de recompensas Schultz para perseguir os criminosos mais procurados do país e resgatar sua esposa de um fazendeiro que força seus escravos a entrarem em competições mortais.", dataLançamento:date("2013-01-18"), categoria: ""});
+MERGE (:Filme {nomeFilme: "Creed II", sinopseFilme: "Adonis enfrenta o maior desafio de sua vida: um inimigo que está ligado ao passado de sua família. Ao lado de Rocky Balboa, eles enfrentam o passado para descobrir por que vale a pena lutar", dataLançamento:date("2024-01-24"), categoria: ""});
+MERGE (:Filme {nomeFilme: "Guerreiros de Fogo", sinopseFilme: "Mulher decide vingar-se de uma rainha poderosa depois que ela dizima sua família em busca de um talismã que lhe dá mais poder. Em sua vingança, ela conta com a ajuda de um guerreiro, por quem acaba se apaixonando.", dataLançamento:date("1985-06-03"), categoria: ""});
+MERGE (:Filme {nomeFilme: "Sonic: O Filme", dataLançamento:date ("2020-02-13"), sinopseFilme: "O porco-espinho Sonic é teletransportado para a Terra. Após causar uma pane elétrica em parte dos Estados Unidos, ele precisa escapar do maligno cientista Dr. Robotnik.", categoria: ""});
+MERGE (:Filme {nomeFilme: "Sonic 2 - O Filme", dataLançamento:date ("2020-02-13"), sinopseFilme: "O Dr. Robotnik retorna à procura de uma esmeralda mística que tem o poder de destruir civilizações. Para detê-lo, Sonic se une a seu antigo parceiro, Tails, e parte em uma jornada para encontrar a joia antes que ela caia em mãos erradas.", categoria: ""});
+MERGE (:Filme {nomeFilme: "Sonic 3 - O Filme", dataLançamento:date ("2024-12-25"), sinopseFilme: "Sonic, Knuckles e Tails se juntam para enfrentar Shadow, um novo e misterioso inimigo com poderes diferentes de tudo que já enfrentaram antes. As habilidades do trio são superadas em todos os aspectos e eles precisam buscar uma improvável aliança.", categoria: ""});
+MERGE (:Artista {nomeArtista: "Brad Pitt", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1963-12-18")});
+MERGE (:Artista {nomeArtista: "Quentin Tarantino", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1963-03-27")});
+MERGE (:Artista {nomeArtista: "Tom Hanks", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1956-06-09")});
+MERGE (:Artista {nomeArtista: "Jennifer Garner", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1972-04-17")});
+MERGE (:Artista {nomeArtista: "Steven Spielberg", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1946-12-18")});
+MERGE (:Artista {nomeArtista: "Jamie Foxx", dataDeNascimentoArtista:date("1967-12-13"), nacionalidadeArtista: "Americano"}); 
+MERGE (:Artista {nomeArtista: "Jim Carrey", nacionalidadeArtista: ("Americano"), dataDeNascimentoArtista:date ("1962-01-17") });
+MERGE (:Artista {nomeArtista: "James Marsden", nacionalidadeArtista: ("Americano"), dataDeNascimentoArtista:date ("1973-09-18") });
+MERGE (:Artista {nomeArtista: "Tika Sumpter", nacionalidadeArtista: ("Americano"), dataDeNascimentoArtista:date ("1980-06-20") });
+MERGE (:Artista {nomeArtista: "Keanu Reeves", nacionalidadeArtista: ("Líbanes"), dataDeNascimentoArtista:date ("1964-09-09") });
+MERGE (:Artista {nomeArtista: "Clint Eastwood", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1930-05-31")});
+MERGE (:Artista {nomeArtista: "Lee Van Cleef", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1925-01-09")});
+MERGE (:Artista {nomeArtista: "Antonio Casale", nacionalidadeArtista: "Italiano", dataDeNascimentoArtista:date("1932-05-17")});
+MERGE (:Artista {nomeArtista: "Eli Wallach", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1915-12-07")});
+MERGE (:Artista {nomeArtista: "Sergio Leone", nacionalidadeArtista: "Italiano", dataDeNascimentoArtista:date("1929-01-03")});
+MERGE (:Artista {nomeArtista: "Sylvester Stallone", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1946-06-06")});
+MERGE (:Artista {nomeArtista: "Dolph Lundgren", nacionalidadeArtista: "Sueco", dataDeNascimentoArtista:date("1957-11-03")});
+MERGE (:Artista {nomeArtista: "Brigitte Nielsen", nacionalidadeArtista: "Dinamarquesa", dataDeNascimentoArtista:date("1963-07-15")});
+MERGE (:Artista {nomeArtista: "Michael B. Jordan", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1987-02-09")});
+MERGE (:Artista {nomeArtista: "Arnold Schwarzenegger", nacionalidadeArtista: "Austríaco", dataDeNascimentoArtista:date ("1947-07-30")})
+MERGE (:Artista {nomeArtista: "Jack Bender", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1949-09-25")});
+MERGE (:Artista {nomeArtista: "Matheu Fox", nacionalidadeArtista: "Americano", dataDeNascimentoArtista:date("1966-06-14")});
+MERGE (:Artista {nomeArtista: "Evangeline Lilly", nacionalidadeArtista: "Canadense", dataDeNascimentoArtista:date("1979-08-03")});
+MERGE (:Artista {nomeArtista: "Jeffrey Fowler", nacionalidadeArtista: ("Americano"), dataDeNascimentoArtista:date ("1978-07-27") });
+MERGE (:Artista {nomeArtista: "Richard O. Fleischer", nacionalidadeArtista: ("Americano"), dataDeNascimentoArtista:date ("1916-12-08") });
+MERGE (:Artista {nomeArtista: "Callum Turner", nacionalidadeArtista: ("Britanico"), dataDeNascimentoArtista:date ("1990-02-15") });
+MERGE (:Artista {nomeArtista: "Isabel May", nacionalidadeArtista: ("Americana"), dataDeNascimentoArtista:date ("2000-11-21") });
+MERGE (:Artista {nomeArtista: "Jennifer Flavin Stallone", nacionalidadeArtista: ("Americana"), dataDeNascimentoArtista:date ("1968-08-14") });
+MERGE (:Serie {nomeSerie: "Lost", periodoSerie: "2004-2010", sinopseSerie: "A história foca nos sobreviventes do voo Oceanic 815, que cai em uma ilha misteriosa no Pacífico.", categoria: "Ficção"});
+MERGE (:Serie {nomeSerie: "Mestres do Ar", periodoSerie: "2024", sinopseSerie: "Durante a Segunda Guerra Mundial, aviadores arriscam suas vidas com o Centésimo Grupo de Bombardeio, uma irmandade forjada pela coragem, perda e triunfo.", categoria: "Drama"});
+MERGE (:Serie {nomeSerie: "A Família Stallone", periodoSerie: "2023-2024", sinopseSerie: "Acompanhe Sylvester Stallone com sua esposa e filhas em um acesso direto ao seu cotidiano. ", categoria: " Reality Show "});
+MERGE (:Serie {nomeSerie: "Knuckles", periodoSerie: "2024", sinopseSerie: "Knuckles embarca em uma jornada de autodesenvolvimento hilária e cheia de ação quando aceita treinar Wade e iniciá-lo nos segredos do guerreiro Equidna."});
+MERGE (:Capitulo {nomeCapitulo: "O Piloto", ordemCapitulo: 1, dataLançamentoCapitulo:date ("2004-07-22"), sinopseCapitulo: "um médico de Los Angeles, se vê como um dos quarenta e oito sobreviventes de um acidente de avião em uma ilha misteriosa . Com a ajuda de outros sobreviventes, ele começa a tratar os feridos e tenta encontrar a cabine de comando do avião na esperança de contatar a civilização."}); 
+MERGE (:Capitulo {nomeCapitulo: "Tabula Rasa", ordemCapitulo: 2, dataLançamentoCapitulo:date ("2004-07-22"), sinopseCapitulo: "A tensão começa a aumentar entre a equipe de sinalização enquanto retornam das montanhas. Na praia, Jack fica cada vez mais desconfiado de Kate , a fugitiva que está sendo escoltada de volta para os Estados Unidos pelo delegado."}); 
+MERGE (:Capitulo {nomeCapitulo: "Orientation", ordemCapitulo: 3, dataLançamentoCapitulo:date ("2005-08-05"), sinopseCapitulo: "O capitulo, foca na descoberta da Estação Cisne (a escotilha) por Jack e Locke, que assistem ao filme de orientação da Iniciativa Dharma narrado pelo Dr. Marvin Candle, revelando o protocolo de apertar o botão a cada 108 minutos."}); 
+MERGE (:Capitulo {nomeCapitulo: "A Tale of Two Cities", ordemCapitulo: 1, dataLançamentoCapitulo:date ("2006-08-04"), sinopseCapitulo: "O capitulo, foca na captura de Jack, Kate e Sawyer pelos Outros na Estação Hydra, explorando o passado dos personagens enquanto eles enfrentam interrogatórios e manipulação psicológica de Ben e Juliet, destacando o contraste entre os sobreviventes e os Outros."}); 
+MERGE (:Capitulo {nomeCapitulo: "1ª Parte", ordemCapitulo: 1, dataLançamentoCapitulo:date ("2024-01-25"), sinopseCapitulo: "Liderado pelos Majores Cleven e Egan, o Centésimo Grupo de Bombardeiros chega à Inglaterra e se junta à oitava campanha da Força Aérea contra a Alemanha nazista."});
+MERGE (:Capitulo {nomeCapitulo: "2ª Parte", ordemCapitulo: 2, dataLançamentoCapitulo:date ("2024-01-25"), sinopseCapitulo: "O Centésimo bombardeia bases de submarinos alemães na Noruega. Com a ajuda da navegação do tenente Crosby, um B-17 danificado luta para voltar à Grã-Bretanha."});
+MERGE (:Capitulo {nomeCapitulo: "3ª Parte", ordemCapitulo: 3, dataLançamentoCapitulo:date ("2024-02-01"), sinopseCapitulo: "O grupo participa, na sua maior missão até a data—do bombardeio de fábricas vitais de produção de aeronaves no interior da Alemanha."}); 
+MERGE (:Capitulo {nomeCapitulo: "Preparar, Apontar, Lutar", ordemCapitulo: 7, dataLançamentoCapitulo:date ("2023-06-23"), sinopseCapitulo: "O medo de fracassar faz Sophia sabotar sua própria carreira. O roteiro do filme de Sistine causa um drama familiar.."}); 
+MERGE (:Capitulo {nomeCapitulo: "Diga Adeus a Hollywood", ordemCapitulo: 1, dataLançamentoCapitulo:date ("2024-02-21"), sinopseCapitulo: "O Centésimo bombardeia bases de submarinos alemães na Noruega. Com a ajuda da navegação do tenente Crosby, um B-17 danificado luta para voltar à Grã-Bretanha."}); 
+MERGE (:Capitulo {nomeCapitulo: "O Guerreiro", ordemCapitulo: 1, dataLançamentoCapitulo:date ("2024-04-26"), sinopseCapitulo: "Knuckles tem dificuldade para se adaptar à nova vida em Green Hills."});
+MERGE (:Capitulo {nomeCapitulo: "Nunca Diga Que Eu Não Te Apoiei...", ordemCapitulo: 2, dataLançamentoCapitulo:date ("2024-04-26"), sinopseCapitulo: "Wade planeja uma incrível missão de resgate, enquanto Knuckles enfrenta seus captores."});
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Era uma vez em Hollywood"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Creed II"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Três Homens em Conflito"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Guerreiros de Fogo"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:3}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (c:Capitulo {nomeCapitulo: "O Piloto"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (c:Capitulo {nomeCapitulo: "Tabula Rasa"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (c:Capitulo {nomeCapitulo: "Orientation"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Fabricio Andrei"}), (c:Capitulo {nomeCapitulo: "A Tale of Two Cities"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Maria Helena"}), (f:Filme {nomeFilme: "Era uma vez em Hollywood"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Maria Helena"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:3}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Maria Helena"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:4}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Maria Helena"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:3}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Maria Helena"}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Pietro Emmanuel"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Pietro Emmanuel"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Pietro Emmanuel"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Pietro Emmanuel"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:2}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Pietro Emmanuel"}), (f:Filme {nomeFilme: "Creed II"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:2}]->(f);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (f:Filme {nomeFilme: "Três Homens em Conflito"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f); 
+MATCH (u:Usuario {nomeUsuario:"Luiz Donato"}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:4}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Luiz Donato"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (c:Capitulo {nomeCapitulo: "O Guerreiro"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaCapitulo:5}]->(c);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (c:Capitulo {nomeCapitulo: "Nunca Diga Que Eu Não Te Apoiei..."})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaCapitulo:5}]->(c);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (c:Capitulo {nomeCapitulo: "1ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (c:Capitulo {nomeCapitulo: "2ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (c:Capitulo {nomeCapitulo: "3ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"João José"}), (f:Filme {nomeFilme: "Três Homens em Conflito"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f); 
+MATCH (u:Usuario {nomeUsuario:"João José"}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:4}]->(f);
+MATCH (u:Usuario {nomeUsuario:"João José"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario: "Estela Silveira"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f); 
+MATCH (u:Usuario {nomeUsuario:"João José"}), (c:Capitulo {nomeCapitulo: "1ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"João José"}), (c:Capitulo {nomeCapitulo: "2ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"João José"}), (c:Capitulo {nomeCapitulo: "3ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Estela Silveira"}), (c:Capitulo {nomeCapitulo: "O Piloto"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Estela Silveira"}), (c:Capitulo {nomeCapitulo: "Tabula Rasa"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Estela Silveira"}), (c:Capitulo {nomeCapitulo: "Orientation"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:3}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Estela Silveira"}), (c:Capitulo {nomeCapitulo: "A Tale of Two Cities"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:2}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:4}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (f:Filme {nomeFilme: "Creed II"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:3}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (f:Filme {nomeFilme: "Guerreiros de Fogo"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:2}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (c:Capitulo {nomeCapitulo: "1ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (c:Capitulo {nomeCapitulo: "2ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Enzo Augusto"}), (c:Capitulo {nomeCapitulo: "3ª Parte"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaFilme:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Thor Augusto"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:3}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Thor Augusto"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Thor Augusto"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario: "Matheus Oliveira"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario: "Matheus Oliveira"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Matheus Oliveira"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Matheus Oliveira"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:1}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Thor Augusto"}), (c:Capitulo {nomeCapitulo: "Nunca Diga Que Eu Não Te Apoiei..."})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaCapitulo:4}]->(c);
+MATCH (u:Usuario {nomeUsuario: "Matheus Oliveira"}), (c:Capitulo {nomeCapitulo: "O Guerreiro"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaCapitulo:5}]->(c);
+MATCH (u:Usuario {nomeUsuario: "Matheus Oliveira"}), (c:Capitulo {nomeCapitulo: "Nunca Diga Que Eu Não Te Apoiei..."})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaCapitulo:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (f:Filme {nomeFilme: "Era uma vez em Hollywood"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (f:Filme {nomeFilme: "Creed II"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (f:Filme {nomeFilme: "Três Homens em Conflito"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (f:Filme {nomeFilme: "Guerreiros de Fogo"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:2}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (u)-[:ASSISTE_FILME {avaliaFilme:5}]->(f);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (c:Capitulo {nomeCapitulo: "Preparar, Apontar, Lutar"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaCapitulo:5}]->(c);
+MATCH (u:Usuario {nomeUsuario:"Walter Silveira"}), (c:Capitulo {nomeCapitulo: "Diga Adeus a Hollywood"})
+MERGE (u)-[:ASSISTE_CAPITULO {avaliaCapitulo:5}]->(c);
+MATCH (a:Artista {nomeArtista: "Sergio Leone"}), (f:Filme {nomeFilme: "Três Homens em Conflito"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "Sergio Leone", atorFilme: "", papelFilme: ""}]-> (f);
+MATCH (a:Artista {nomeArtista: "Clint Eastwood"}), (f:Filme {nomeFilme: "Três Homens em Conflito"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Clint Eastwood", papelFilme: "Blondie"}]-> (f);
+MATCH (a:Artista {nomeArtista: "Eli Wallach"}), (f:Filme {nomeFilme: "Três Homens em Conflito"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Eli Wallach", papelFilme: "Tuco"}]-> (f);
+MATCH (a:Artista {nomeArtista: "Lee Van Cleef"}), (f:Filme {nomeFilme: "Três Homens em Conflito"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Lee Van Cleef", papelFilme: "Angel Eyes"}]-> (f);
+MATCH (a:Artista {nomeArtista: "Leonardo DiCaprio"}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Leonardo DiCaprio", papelFilme: "Calvin Candie"}]-> (f);MATCH (a:Artista {nomeArtista: "Jamie Foxx"}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Jamie Foxx", papelFilme: "Django"}]-> (f);
+MATCH (a:Artista {nomeArtista: "Quentin Tarantino "}), (f:Filme {nomeFilme: "Django Livre"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "Quentin Tarantino ", atorFilme: "", papelFilme: "Calvin Candie"}]-> (f);
+MATCH (a:Artista {nomeArtista: "Sylvester Stallone"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Sylvester Stallone", diretorFilme: "Sylvester Stallone", papelFilme: "Rocky Balboa"}]->(f);
+MATCH (a:Artista {nomeArtista: "Dolph Lundgren"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Dolph Lundgren", diretorFilme: "", papelFilme: "Ivan Drago"}]->(f);
+MATCH (a:Artista {nomeArtista: "Brigitte Nielsen"}), (f:Filme {nomeFilme: "Rocky IV"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Brigitte Nielsen", diretorFilme: "", papelFilme: "Ludmilla Vobet"}]->(f);
+MATCH (a:Artista {nomeArtista: "Sylvester Stallone"}), (f:Filme {nomeFilme: "Creed II"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Sylvester Stallone", diretorFilme: "Sylvester Stallone", papelFilme: "Rocky Balboa"}]->(f);
+MATCH (a:Artista {nomeArtista: "Dolph Lundgren"}), (f:Filme {nomeFilme: "Creed II"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Dolph Lundgren", diretorFilme: "", papelFilme: "Ivan Drago"}]->(f);
+MATCH (a:Artista {nomeArtista: "Brigitte Nielsen"}), (f:Filme {nomeFilme: "Creed II"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Brigitte Nielsen", diretorFilme: "", papelFilme: "Ludmilla Vobet"}]->(f);
+MATCH (a:Artista {nomeArtista: "Michael B. Jordan"}), (f:Filme {nomeFilme: "Creed II"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Michael B. Jordan", diretorFilme: "", papelFilme: "Adonis Johnon Creed"}]->(f);
+MATCH (a:Artista {nomeArtista: "Brigitte Nielsen"}), (f:Filme {nomeFilme: "Guerreiros de Fogo"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Brigitte Nielsen", diretorFilme: "", papelFilme: "Red Sonja"}]->(f);
+MATCH (a:Artista {nomeArtista: "Arnold Schwarzenegger"}), (f:Filme {nomeFilme: "Guerreiros de Fogo"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "Arnold Schwarzenegger", diretorFilme: "", papelFilme: "Lord Kalidor"}]->(f);
+MATCH (a:Artista {nomeArtista: "Richard O. Fleischer"}), (f:Filme {nomeFilme: "Guerreiros de Fogo"})
+MERGE (a)-[t:ATUA_FILME {atorFilme: "", diretorFilme: "Richard O. Fleischer", papelFilme: ""}]->(f);
+MATCH (a:Artista {nomeArtista: "Leonardo DiCaprio"}), (f:Filme {nomeFilme: "Era uma vez em Hollywood"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Leonardo DiCaprio", papelFilme: "Rick Dalton" }]-> (f);
+MATCH (a:Artista {nomeArtista: "Brad Pitt"}), (f:Filme {nomeFilme: "Era uma vez em Hollywood"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Brad Pitt", papelFilme: "Cliff Booth"}]-> (f);
+MATCH (a:Artista {nomeArtista: "Quentin Tarantino"}), (f:Filme {nomeFilme: "Era uma vez em Hollywood"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "Quentin Tarantino", atorFilme: "", papelFilme: "" }]-> (f);
+MATCH (a:Artista {nomeArtista: "Leonardo DiCaprio"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Leonardo DiCaprio", papelFilme: "Frank Abagnale Jr." }]-> (f);
+MATCH (a:Artista {nomeArtista: "Jennifer Garner"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "", atorFilme: "Jennifer Garner", papelFilme: "Cheryl Ann"}]-> (f);
+MATCH (a:Artista {nomeArtista: "Steven Spielberg"}), (f:Filme {nomeFilme: "Prenda-Me Se For Capaz"})
+MERGE (a)-[:ATUA_FILME {diretorFilme: "Steven Spielberg", atorFilme: "", papelFilme: ""}]-> (f);
+MATCH (a:Artista {nomeArtista: "Jim Carrey"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "Jim Carrey", papelFilme: "Doutor Eggman"}]->(f);
+MATCH (a:Artista {nomeArtista: "James Marsden"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "James Marsden", papelFilme: "Tom Wachowsky"}]->(f);
+MATCH (a:Artista {nomeArtista: "Tika Sumpter"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "Tika Sumpter", papelFilme: "Maddie Wachowsky"}]->(f);
+MATCH (a:Artista {nomeArtista: "Jeffrey Fowler"}), (f:Filme {nomeFilme: "Sonic: O Filme"})
+MERGE (a)-[r:ATUA_FILME {diretorFilme: "Jeffrey Fowler"}]->(f);
+MATCH (a:Artista {nomeArtista: "Jim Carrey"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "Jim Carrey", papelFilme: "Doutor Eggman"}]->(f);
+MATCH (a:Artista {nomeArtista: "James Marsden"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "James Marsden", papelFilme: "Tom Wachowsky"}]->(f);
+MATCH (a:Artista {nomeArtista: "Tika Sumpter"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "Tika Sumpter", papelFilme: "Maddie Wachowsky"}]->(f);
+MATCH (a:Artista {nomeArtista: "Jeffrey Fowler"}), (f:Filme {nomeFilme: "Sonic 2 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {diretorFilme: "Jeffrey Fowler"}]->(f);
+MATCH (a:Artista {nomeArtista: "Jim Carrey"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "Jim Carrey", papelFilme: "Doutor Eggman"}]->(f);
+MATCH (a:Artista {nomeArtista: "James Marsden"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "James Marsden", papelFilme: "Tom Wachowsky"}]->(f);
+MATCH (a:Artista {nomeArtista: "Tika Sumpter"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "Tika Sumpter", papelFilme: "Maddie Wachowsky"}]->(f);
+MATCH (a:Artista {nomeArtista: "Keanu Reeves"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {atorFilme: "Keanu Reeves", papelFilme: "Shadow The Hedgehog"}]->(f);
+MATCH (a:Artista {nomeArtista: "Jeffrey Fowler"}), (f:Filme {nomeFilme: "Sonic 3 - O Filme"})
+MERGE (a)-[r:ATUA_FILME {diretorFilme: "Jeffrey Fowler"}]->(f);
+MATCH (s:Serie {nomeSerie: "Lost"}), (c:Capitulo {nomeCapitulo: "O Piloto"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 1}]->(c);
+MATCH (s:Serie {nomeSerie: "Lost"}), (c:Capitulo {nomeCapitulo: "Tabula Rasa"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 1}]->(c);
+MATCH (s:Serie {nomeSerie: "Lost"}), (c:Capitulo {nomeCapitulo: "Orientation"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 2}]->(c);
+MATCH (s:Serie {nomeSerie: "Lost"}), (c:Capitulo {nomeCapitulo: "A Tale of Two Cities"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 3}]->(c);
+MATCH (s:Serie {nomeSerie: "Mestres do Ar"}), (c:Capitulo {nomeCapitulo: "1ª Parte"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 1}]->(c);
+MATCH (s:Serie {nomeSerie: "Mestres do Ar"}), (c:Capitulo {nomeCapitulo: "2ª Parte"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 1}]->(c);
+MATCH (s:Serie {nomeSerie: "Mestres do Ar"}), (c:Capitulo {nomeCapitulo: "3ª Parte"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 1}]->(c);
+MATCH (s:Serie {nomeSerie: "A Família Stallone"}), (c:Capitulo {nomeCapitulo: "Preparar, Apontar, Lutar"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 1}]->(c);
+MATCH (s:Serie {nomeSerie: "A Família Stallone"}), (c:Capitulo {nomeCapitulo: "Diga Adeus a Hollywood"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 2}]->(c);
+MATCH (s:Serie {nomeSerie: "Knuckles"}), (c:Capitulo {nomeCapitulo: "O Guerreiro"})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 1}]->(c);
+MATCH (s:Serie {nomeSerie: "Knuckles"}), (c:Capitulo {nomeCapitulo: "Nunca Diga Que Eu Não Te Apoiei..."})
+MERGE (s)-[:SERIE_TEM_CAPITULO {temporada: 1}]->(c);
+MATCH (a:Artista {nomeArtista: "Matheu Fox"}), (c:Capitulo {nomeCapitulo: "O Piloto"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Matheu Fox", papelCapitulo: "Jack Shephard"}]->(c);
+MATCH (a:Artista {nomeArtista: "Evangeline Lilly"}), (c:Capitulo {nomeCapitulo: "O Piloto"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Evangeline Lilly", papelCapitulo: "Kate Austen"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jack Bender"}), (c:Capitulo {nomeCapitulo: "O Piloto"})
+MERGE (a)-[:ATUA_CAPITULO {diretorCapitulo: "Jack Bender", papelCapitulo: ""}]->(c);
+MATCH (a:Artista {nomeArtista: "Matheu Fox"}), (c:Capitulo {nomeCapitulo: "Tabula Rasa"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Matheu Fox", papelCapitulo: "Jack Shephard"}]->(c);
+MATCH (a:Artista {nomeArtista: "Evangeline Lilly"}), (c:Capitulo {nomeCapitulo: "Tabula Rasa"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Evangeline Lilly", papelCapitulo: "Kate Austen"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jack Bender"}), (c:Capitulo {nomeCapitulo: "Tabula Rasa"})
+MERGE (a)-[:ATUA_CAPITULO {diretorCapitulo: "Jack Bender", papelCapitulo: ""}]->(c);
+MATCH (a:Artista {nomeArtista: "Matheu Fox"}), (c:Capitulo {nomeCapitulo: "Orientation"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Matheu Fox", papelCapitulo: "Jack Shephard"}]->(c);
+MATCH (a:Artista {nomeArtista: "Evangeline Lilly"}), (c:Capitulo {nomeCapitulo: "Orientation"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Evangeline Lilly", papelCapitulo: "Kate Austen"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jack Bender"}), (c:Capitulo {nomeCapitulo: "Orientation"})
+MERGE (a)-[:ATUA_CAPITULO {diretorCapitulo: "Matheu Fox", papelCapitulo: ""}]->(c);
+MATCH (a:Artista {nomeArtista: "Callum Turner"}), (c:Capitulo {nomeCapitulo: "1ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Callum Turner", papelCapitulo : "Major Jonh Egan"}]->(c);
+MATCH (a:Artista {nomeArtista: "Isabel May"}), (c:Capitulo {nomeCapitulo: "1ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Isabel May", papelCapitulo: "Kate Austen"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jack Bender"}), (c:Capitulo {nomeCapitulo: "1ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Steven Spielberg", papelCapitulo: ""}]->(c);
+MATCH (a:Artista {nomeArtista: "Callum Turner"}), (c:Capitulo {nomeCapitulo: "2ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Callum Turner", papelCapitulo: "Major Jonh Egan"}]->(c);
+MATCH (a:Artista {nomeArtista: "Isabel May"}), (c:Capitulo {nomeCapitulo: "2ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Isabel May", papelCapitulo: "Marge"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jack Bender"}), (c:Capitulo {nomeCapitulo: "2ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {diretorSerie: "Steven Spielberg", papelCapitulo: ""}]->(c);
+MATCH (a:Artista {nomeArtista: "Callum Turner"}), (c:Capitulo {nomeCapitulo: "3ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Callum Turner", papelCapitulo: "Major Jonh Egan"}]->(c);
+MATCH (a:Artista {nomeArtista: "Isabel May"}), (c:Capitulo {nomeCapitulo: "3ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Isabel May", papelCapitulo: "Marge"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jack Bender"}), (c:Capitulo {nomeCapitulo: "3ª Parte"})
+MERGE (a)-[:ATUA_CAPITULO {diretorSerie: "Steven Spielberg", papelCapitulo: ""}]->(c);
+MATCH (a:Artista {nomeArtista: "James Marsden"}), (c:Capitulo {nomeCapitulo: "O Guerreiro"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "James Marsden", papelCapitulo: "Tom Wachowsky"}]->(c);
+MATCH (a:Artista {nomeArtista: "Tika Sumpter"}), (c:Capitulo {nomeCapitulo: "O Guerreiro"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Tika Sumpter", papelCapitulo: "Maddie Wachowsky"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jack Bender"}), (c:Capitulo {nomeCapitulo: "O Guerreiro"})
+MERGE (a)-[:ATUA_CAPITULO {diretorCapitulo: "Jeffrey Fowler", papelCapitulo: ""}]->(c);
+MATCH (a:Artista {nomeArtista: "James Marsden"}), (c:Capitulo {nomeCapitulo: "Nunca Diga Que Eu Não Te Apoiei..."})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "James Marsden", papelCapitulo: "Tom Wachowsky"}]->(c);
+MATCH (a:Artista {nomeArtista: "Tika Sumpter"}), (c:Capitulo {nomeCapitulo: "Nunca Diga Que Eu Não Te Apoiei..."})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Tika Sumpter", papelCapitulo: "Maddie Wachowsky"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jack Bender"}), (c:Capitulo {nomeCapitulo: "Nunca Diga Que Eu Não Te Apoiei..."})
+MERGE (a)-[:ATUA_CAPITULO {diretorCapitulo: "Jeffrey Fowler", papelCapitulo: ""}]->(c);
+MATCH (a:Artista {nomeArtista: "Sylvester Stallone"}), (c:Capitulo {nomeCapitulo: "Preparar, Apontar, Lutar"})
+MERGE (a)-[:ATUA_CAPITULO {diretorCapitulo: "Sylvester Stallone", atorCapitulo: "Sylvester Stallone", papelCapitulo: "Sylvester Stallone"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jennifer Flavin Stallone"}), (c:Capitulo {nomeCapitulo: "Preparar, Apontar, Lutar"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Jennifer Flavin Stallone", papelCapitulo: "Jennifer Flavin Stallone"}]->(c);
+MATCH (a:Artista {nomeArtista: "Dolph Lundgren"}), (c:Capitulo {nomeCapitulo: "Preparar, Apontar, Lutar"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Dolph Lundgren", papelCapitulo: "Dolph Lundgren"}]->(c);
+MATCH (a:Artista {nomeArtista: "Sylvester Stallone"}), (c:Capitulo {nomeCapitulo: "Diga Adeus a Hollywood"})
+MERGE (a)-[:ATUA_CAPITULO {diretorCapitulo: "Sylvester Stallone", atorCapitulo: "Sylvester Stallone", papelSerie: "Sylvester Stallone"}]->(c);
+MATCH (a:Artista {nomeArtista: "Jennifer Flavin Stallone"}), (c:Capitulo {nomeCapitulo: "Diga Adeus a Hollywood"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Jennifer Flavin Stallone", papelCapitulo: "Jennifer Flavin Stallone"}]->(c);
+MATCH (a:Artista {nomeArtista: "Dolph Lundgren"}), (c:Capitulo {nomeCapitulo: "Diga Adeus a Hollywood"})
+MERGE (a)-[:ATUA_CAPITULO {atorCapitulo: "Dolph Lundgren", papelCapitulo: "Dolph Lundgren"}]->(c);
