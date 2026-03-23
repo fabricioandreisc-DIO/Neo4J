@@ -1,0 +1,89 @@
+MERGE (:Usuario {nomeUsuario: "Fabricio Andrei"});
+MERGE (:Usuario {nomeUsuario: "Pietro Emmanuel"});
+MERGE (:Usuario {nomeUsuario: "Maria Helena"});
+MERGE (:Usuario {nomeUsuario: "Matheus Oliveira"});
+MERGE (:Usuario {nomeUsuario: "João José"});
+MERGE (:Usuario {nomeUsuario: "Estela Silveira"});
+MERGE (:Usuario {nomeUsuario: "Enzo Augusto"});
+MERGE (:Usuario {nomeUsuario: "Thor Augusto"});
+MERGE (:Usuario {nomeUsuario: "Walter Silveira"});
+MERGE (:Usuario {nomeUsuario: "Luiz Donato"});
+MERGE (:Usuario {nomeUsuario: "Lilo Silveira"});
+MERGE (:Usuario {nomeUsuario: "David Emmanuel"});
+MERGE (:Usuario {nomeUsuario: "Pedro Ernesto"});
+MERGE (:Usuario {nomeUsuario: "Talita Silveira"});
+MERGE (:Usuario {nomeUsuario: "Maria Regina"});
+MERGE (:Usuario {nomeUsuario: "Walter Mastrocola"});
+MERGE (:Usuario {nomeUsuario: "Barbara Costa"});
+MERGE (:Usuario {nomeUsuario: "Therezinha Mastrocola"});
+MERGE (:Usuario {nomeUsuario: "Carolina Silveira"});
+MERGE (:Usuario {nomeUsuario: "Kiko Silveira"});
+MERGE (:Usuario {nomeUsuario: "Roberta Silveira"});
+MERGE (:Grupo {nomeGrupo: "Filosofia"});
+
+MATCH (u1:Usuario {nomeUsuario: "Fabricio Andrei"}), (u2:Usuario {nomeUsuario: "Pietro Emmanuel"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Pietro Emmanuel"}), (u2:Usuario {nomeUsuario: "Maria Helena"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Maria Helena"}), (u2:Usuario {nomeUsuario: "Matheus Oliveira"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Matheus Oliveira"}), (u2:Usuario {nomeUsuario: "João José"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "João José"}), (u2:Usuario {nomeUsuario: "Estela Silveira"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Estela Silveira"}), (u2:Usuario {nomeUsuario: "Enzo Augusto"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Enzo Augusto"}), (u2:Usuario {nomeUsuario: "Thor Augusto"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Thor Augusto"}), (u2:Usuario {nomeUsuario: "Barbara Costa"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Barbara Costa"}), (u2:Usuario {nomeUsuario: "Walter Silveira"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Walter Silveira"}), (u2:Usuario {nomeUsuario: "Luiz Donato"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Luiz Donato"}), (u2:Usuario {nomeUsuario: "Lilo Silveira"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Lilo Silveira"}), (u2:Usuario {nomeUsuario: "David Emmanuel"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]->(u2);
+MATCH (u1:Usuario {nomeUsuario: "David Emmanuel"}), (u2:Usuario {nomeUsuario: "Pedro Ernesto"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]->(u2);
+MATCH (u1:Usuario {nomeUsuario: "Pedro Ernesto"}), (u2:Usuario {nomeUsuario: "Talita Silveira"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Talita Silveira"}), (u2:Usuario {nomeUsuario: "Maria Regina"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Maria Regina"}), (u2:Usuario {nomeUsuario: "Walter Mastrocola"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Walter Mastrocola"}), (u2:Usuario {nomeUsuario: "Therezinha Mastrocola"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Therezinha Mastrocola"}), (u2:Usuario {nomeUsuario: "Carolina Silveira"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Carolina Silveira"}), (u2:Usuario {nomeUsuario: "Kiko Silveira"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Kiko Silveira"}), (u2:Usuario {nomeUsuario: "Roberta Silveira"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Roberta Silveira"}), (u2:Usuario {nomeUsuario: "Fabricio Andrei"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Pedro Ernesto"}), (u2:Usuario {nomeUsuario: "Maria Helena"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+MATCH (u1:Usuario {nomeUsuario: "Carolina Silveira"}), (u2:Usuario {nomeUsuario: "Thor Augusto"})
+MERGE (u1)-[:RELACIONA {statusRelaciona: "Amigo"}]-(u2);
+
+MATCH (u:Usuario {nomeUsuario: "Luiz Donato"}), (g:Grupo {nomeGrupo: "Filosofia"})
+MERGE (u)-[:ENTRA {statusGrupo: "Participante"}]-(g);
+MATCH (u:Usuario {nomeUsuario: "Fabricio Andrei"}), (g:Grupo {nomeGrupo: "Filosofia"})
+MERGE (u)-[:ENTRA {statusGrupo: "Participante"}]-(g);
+
+MERGE (:Post {nomePost: "Geográfia aplicada na sua vida", textoPost: "Vai melhorar o seu conhecimento"});
+MERGE (:Comentario {nomeComentario: "Geográfia aplicada na sua vida", textoComentario: "Excelente!!!"});
+MATCH (u:Usuario {nomeUsuario: "Maria Helena"}), (p:Post {nomePost: "Geográfia aplicada na sua vida"})
+MERGE (u)-[:PUBLICA]->(p);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (c:Comentario {nomeComentario: "Geográfia aplicada na sua vida"})
+MERGE (u)-[:ESCREVE]->(c);
+MATCH (c:Comentario {nomeComentario: "Geográfia aplicada na sua vida"}), (p:Post {nomePost: "Geográfia aplicada na sua vida"})
+MERGE (c)-[:COMENTA_POST]->(p);
+MATCH (c:Comentario {nomeComentario: "Filosofia"}), (g:Grupo {nomePost: "Muito 10 esse grupo"})
+MERGE (c)-[:COMENTA_GRUPO]->(g);
+MATCH (u:Usuario {nomeUsuario: "Pietro Emmanuel"}), (c:Comentario {nomeComentario: "Filosofia"})
+MERGE (u)-[:ESCREVE]->(c);
+MATCH (g:Grupo {nomeGrupo: "Filosofia"}), (p:Post {nomePost: "Geográfia aplicada na sua vida"})
+MERGE (g)-[:GRUPO_POSTA]->(p);
